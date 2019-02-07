@@ -6,10 +6,6 @@ import './App.css';
 class App extends React.Component {
   keyboard: Keyboard;
 
-  constructor(props: any){
-    super(props);
-  }
-
   state = {
     layoutName: "default",
     input: ""
